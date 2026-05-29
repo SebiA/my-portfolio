@@ -1,0 +1,10 @@
+.nav-button > * {
+    color: #FFFFFF;
+    width: fit-content;
+    height: 15px;
+    background-color: #000000;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0;
+}
