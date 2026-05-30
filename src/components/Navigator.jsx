@@ -6,6 +6,7 @@ const Navigator = () => {
     return (
         <>
         <div className='nav-button'>
+            <button>Home</button>
             <button>About Me</button>
             <button>Projects</button>
             <button>Resume</button>

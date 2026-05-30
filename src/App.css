@@ -7,4 +7,24 @@
     font-weight: bold;
     font-size: 20px;
     border: 0;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    line-height: normal;
+    margin: 1em auto;
+}
+
+.name-label-top {
+    color: #FFFFFF;
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+
+.name-label-main {
+    color: #295BFF;
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+    font-size: 48px;
 }
