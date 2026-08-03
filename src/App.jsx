@@ -1,15 +1,29 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css";
 import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
+import NavBar from "./components/NavBar";
 
-function App() {
-  const [count, setCount] = useState(0)
+const tabs = {
+  home: <Home />,
+  about: <About />,
+  projects: <Projects />,
+  resume: <Resume />,
+  contact: <Contact />,
+};
+
+export default function App() {
+  const [activeTab, setActiveTab] = useState("home");
 
   return (
     <>
-    <Home></Home>
+      <div>
+        <NavBar setActiveTab={setActiveTab} />
+      </div>
+      {tabs[activeTab]}
     </>
-  )
+  );
 }
-
-export default App
