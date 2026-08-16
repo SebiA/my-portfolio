@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-.nav-bar-main {
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-
 .nav-button > * {
   color: #ffffff;
   width: fit-content;
@@ -40,6 +34,9 @@
   font-size: 20px;
   letter-spacing: 1px;
   line-height: normal;
+  position: relative;
+  top: 10px;
+  left: 10px;
 }
 
 .home-content {

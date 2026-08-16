@@ -21,6 +21,9 @@ export default function App() {
   return (
     <>
       <div>
+        <div className="name-label-top">
+          <p>Sebastian Alderucci</p>
+        </div>
         <NavBar setActiveTab={setActiveTab} />
       </div>
       {tabs[activeTab]}

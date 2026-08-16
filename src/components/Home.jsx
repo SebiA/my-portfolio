@@ -3,9 +3,6 @@ import "@fontsource/merriweather-sans";
 export default function Home() {
   return (
     <>
-      <div className="nav-bar-main">
-        <p className="name-label-top">Sebastian Alderucci</p>
-      </div>
       <div className="home-content">
         <div className="label-main">
           <h1 className="name-label-main">Sebastian Alderucci</h1>
